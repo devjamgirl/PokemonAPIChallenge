@@ -1,0 +1,70 @@
+*{
+  margin:auto;
+  padding: 0;
+}
+body {
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+
+}
+#title{
+  margin-top: 30px;
+  text-align: center;
+  height: 120px;
+  width: 600px;
+  font-size: 50px;
+  margin-left: 60px;
+}
+.title{
+  margin-bottom: 0px;
+}
+#pokenumber {
+  margin-top: 40px;
+  height: 40px;
+  width: 430px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: #fec930;
+  margin-left: 210px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3767AD;
+  text-align: center;
+}
+p {
+  font-family: 'Prosto One', cursive;  
+}
+button{
+  height: 30px;
+  width: 60px;
+  background-color:#09224c;
+  color: #073474;
+  border-style: solid;
+  border-color:#bcbd;
+  font-family: 'Press Start 2P', cursive;
+}
+span{
+  color:#eb212e;
+}
+#gif{
+  margin-left: 20px;
+  margin-right: 0px;
+  height: 200px;
+  width: 250px;
+}
+h4{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0px auto 0px auto;
+}
+h2{
+  font-family: 'Press Start 2P', cursive;
+}
+.results{
+  text-align: center;
+}
+button.btn.btn-default.success{
+ margin-left: 400px;
+}

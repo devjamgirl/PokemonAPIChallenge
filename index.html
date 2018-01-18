@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Prosto+One" rel="stylesheet">
+<link href="https://pokeapi.co/api/v2/pokemon/" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body background='css/img/background-2730506_1280.jpg'> 
+    <div class="top">
+          <div class="title row">
+              <img id="gif" class="col-lg-4" src="https://media.giphy.com/media/iCPWMoAAjqPug/source.gif"/>
+              <img id="title" src="css/img/International_Pokémon_logo.svg.png" />
+          </div>
+        <h4>Find your favorites</h4>
+    </div>
+    
+      <div class="row">
+            <div class="col-lg-8 input-group">
+              <form id="pokeform" >
+                <input id="pokenumber" placeholder="Number/Name of the Pokemon"/>
+                <br>
+                <button class="btn btn-default success" type=submit>G<span>O</span>!</button>
+              </form>
+            </div>
+      </div>
+        <div class='container results'>
+          <div class='row'>
+              <h2 id="pokename"></h2>
+              <img class= "img-rounded" id="pokeimage"/>
+              <p id="pokeid"> </p>
+              <p id="pokeheight"> </p>
+              <p id="pokeweight"> </p>
+              <p id="pokespecies"> </p>
+          </div>
+       </div>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+  </body>
+</html>
